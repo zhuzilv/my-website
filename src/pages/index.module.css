@@ -8,6 +8,10 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex: 1;
+  background-color: #e34234;
+  min-height: calc(100vh - 60px);
 }
 
 @media screen and (max-width: 996px) {
